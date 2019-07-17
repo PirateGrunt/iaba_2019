@@ -1,0 +1,35 @@
+.reveal section h1,h2 {
+  font-size: 1.25em;
+}
+
+.reveal section p {
+  text-align: left;
+}
+
+.reveal section img {
+  background:none;
+  border:none;
+  box-shadow:none;
+}
+
+.reveal .left {
+  font-size: 80%;
+  left:-8.33%;
+  float: left;
+  width:50%;
+}
+
+.reveal .left .sourceCode {
+  font-size: 100%;
+}
+
+.reveal .right {
+  font-size: 90%;
+  left:31.25%;
+  float: right;
+  width:48%;
+}
+
+.red {
+  color: red;
+}
