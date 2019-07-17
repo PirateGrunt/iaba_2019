@@ -59,7 +59,7 @@ plt_fsu_lsu_flow <- game_flow(
   , away_col = lsu_color)
 
 save(
-    file = 'ncaa.rda'
+    file = 'data/ncaa.rda'
   , fsu_color
   , lsu_color
   , tbl_excitement
