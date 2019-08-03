@@ -6,7 +6,7 @@ DATA_RDA = $(DATA_FILES:R=rda)
 data/%.rda:data/%.R
 	Rscript -e "source('$<')"
 
-index.html:index.Rmd ./css/revealOpts.css $(DATA_RDA)
+index.html:index.Rmd css/custom.css $(DATA_RDA)
 	Rscript -e "rmarkdown::render('$<')"
 
 clean:
